@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Horiseon: Accel in Marketing</title><!-- Changed title to make usability and professionalism better -->
+</head>
+
+<body>
+    <header><!-- Changed div to header and nav to easily distinguish main menu and heading of page -->
+    <!-- Removed class from header as there is only one header for this file, better to just do element selectors for simplicity -->
+        <h1>Hori<span class="seo">seo</span>n</h1>
+        <nav>
+            <ul>
+                <!-- Nesting <a> inline with <li> to reduce line usage and make it easier to read -->
+                <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Added aria-label to act as alt on a div rather than img -->
+    <figure id="back-img" aria-label="people collaborating in a digital marketing meeting"></figure><!-- Changed class to ID selector as it's unique, and changed to more appropriate name for specificity -->
+
+    <!-- TUTOR NOTES: WHEN THERE'S SECTIONS NESTED/ A CHILD ELEMENT OF INSIDE OTHER SECTIONS THEN EVERYTHING BECOMES ARTICLES-->
+    
+    <!-- Changed both aside and content to have IDs instead of class, as they are unique -->
+    <section id="content">
+        <article class="content-1">
+            <!-- Adding 'alt' to the images for accessibility and impaired users -->
+            <img src="search-engine-optimization.jpg" alt="Brainstorming SEO strategies on a notepad" class="float-left" />
+            <h2>Search Engine Optimization</h2>
+            <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
+        </article>
+        <article class="content-1">
+            <img src="online-reputation-management.jpg" alt="Researching reputation statistics on a laptop" class="float-right" />
+            <h2>Online Reputation Management</h2>
+            <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
+        </article>
+        <article class="content-1">
+            <img src="social-media-marketing.jpg" alt="Social media collaboration on a dining table" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
+        </article>
+    </section>
+
+    <!-- Creating line gaps between different parts of webpage to make it easier to distinguish between them -->
+    <aside id="benefits"> <!-- Changed to aside as it displays on the side of the other main content -->
+        <article class="benefit-1">
+            <h3>Lead Generation</h3>
+            <img src="lead-generation.png" alt="lead generation icon"/>
+            <p>Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.</p>
+        </article>
+        <article class="benefit-1">
+            <h3>Brand Awareness</h3>
+            <img src="brand-awareness.png" alt="brand awareness icon"/>
+            <p>Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.</p>
+        </article>
+        <article class="benefit-1">
+            <h3>Cost Management</h3>
+            <img src="cost-management.png" alt="cost-management icon"/>
+            <p>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</p>
+        </article>
+    </aside>
+
+    <!-- Changed div to footer to easily distinguish footer from other body sections -->
+    <footer>
+        <h4>Made with ❤️️ by Horiseon</h4><!-- Changed h2 to h4 as h2 clashes with other headings in hierarchy and this needs to be the lowest -->
+        <p>&copy; 2024 Horiseon Social Solution Services, Inc.</p><!-- Nesting <p> tags inline to reduce line usage and make it easier to read -->
+    </footer>
+</body>
+</html>
