@@ -3,7 +3,7 @@
 This website will provide direction to the services that Horiseon provides for improving marketing in your business. My refactoring of the code is a strategy to improve efficiency in the website development, and to allow other developers to better understand the code for when they work on it.
 The adding of semantic elements has resolved the very illegible formatting in the html, and developing classes to use in multiple sections allowed for less wastage and repetition in the css file, also reducing the payload.
 
-![ScreenShot](C:\Users\Mitra\Desktop\practise\Challenge-1\challenge-1\assets\images\challenege screenshot.png)
+![ScreenShot](/images\challenege screenshot.png)
 
 ## Deployment
 
