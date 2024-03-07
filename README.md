@@ -5,6 +5,10 @@ The adding of semantic elements has resolved the very illegible formatting in th
 
 C:\Users\Mitra\Desktop\practise\Challenge-1\challenge-1\assets\images\challenege screenshot.png
 
+## Deployment
+
+https://soupthefull-stack.github.io/challenge-1/ 
+
 ## License
 
 MIT License
